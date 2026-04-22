@@ -1,0 +1,40 @@
+.season-page{
+    text-align:center;
+    padding:40px;
+    border-radius:15px;
+}
+
+.hero-image{
+    width:420px;
+    border-radius:12px;
+}
+
+.btn{
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+    display:inline-block;
+    margin-top:20px;
+}
+
+/* Mexico = indulgent, vibrant */
+.mexico{
+    background:#ffd54f;
+    color:#7a1f1f;
+}
+
+.mexico .btn{
+    background:#e53935;
+    color:white;
+}
+
+/* Germany = restrained, practical */
+.germany{
+    background:#eceff1;
+    color:#263238;
+}
+
+.germany .btn{
+    background:#455a64;
+    color:white;
+}
