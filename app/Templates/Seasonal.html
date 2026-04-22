@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="season-page {{ theme }}">
+
+    <h1>{{ title }}</h1>
+
+    <img src="{{ url_for('static', filename='images/' + image) }}"
+         class="hero-image">
+
+    <p>{{ message }}</p>
+
+    <a href="#" class="btn">{{ button }}</a>
+
+</div>
+
+{% endblock %}
